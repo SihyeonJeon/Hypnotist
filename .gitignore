@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store
+
+# Raw local captures and session transcripts can include machine-specific metadata.
+demo/*
+!demo/hypnotist-en.mp4
+!demo/hypnotist-ko.mp4
+!demo/hypnotist-kiosk-replay.json

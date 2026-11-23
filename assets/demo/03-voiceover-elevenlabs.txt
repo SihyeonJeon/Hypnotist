@@ -1,0 +1,9 @@
+Every new agent session starts from zero.
+<break time="0.4s" />
+Hypnotist fixes that. Install it with one command.
+<break time="0.5s" />
+Hand it a brief and a checkout. Haiku writes the session history: the role, the task, the context.
+<break time="0.5s" />
+Then resume it in Claude Code, or Codex, and pick up where the work left off.
+<break time="0.6s" />
+Hypnotist. Open source, MIT licensed.

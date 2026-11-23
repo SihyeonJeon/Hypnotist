@@ -1,0 +1,32 @@
+1
+00:00:00,300 --> 00:00:03,000
+Every new agent session starts from zero.
+
+2
+00:00:03,000 --> 00:00:05,200
+Hypnotist fixes that.
+
+3
+00:00:05,200 --> 00:00:08,000
+Install it with one command.
+
+4
+00:00:08,000 --> 00:00:11,000
+Hand it a brief and a checkout.
+
+5
+00:00:11,000 --> 00:00:17,000
+Haiku writes the session history:
+the role, the task, the context.
+
+6
+00:00:17,000 --> 00:00:21,500
+Then resume it in Claude Code or Codex,
+
+7
+00:00:21,500 --> 00:00:26,000
+and pick up where the work left off.
+
+8
+00:00:26,000 --> 00:00:30,000
+Hypnotist. Open source, MIT licensed.

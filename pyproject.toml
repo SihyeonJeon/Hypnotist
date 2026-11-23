@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypnotist"
+version = "1.0.1"
+description = "Turn finished work into a resumable Claude Code or Codex session."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "SihyeonJeon" }]
+keywords = ["claude-code", "codex", "agents", "context", "handoff"]
+classifiers = [
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/SihyeonJeon/Hypnotist"
+
+[project.scripts]
+hypnotist = "confab_ctx.cli:main"
+confab-ctx = "confab_ctx.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["confab_ctx*"]
+
+[tool.setuptools.package-data]
+confab_ctx = ["seeds/*.toml", "skills/confab-ctx/SKILL.md"]
