@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+<!-- Hypnotist demo terminal mockup: resume step. Command is real; SESSION CONTENT IS ILLUSTRATIVE - replace with a real capture before publishing. MIT licensed. -->
+<rect width="1920" height="1080" fill="#ffffff"/>
+<rect x="160" y="140" width="1600" height="800" rx="18" fill="#111111"/>
+<circle cx="204" cy="184" r="9" fill="#555"/><circle cx="234" cy="184" r="9" fill="#555"/><circle cx="264" cy="184" r="9" fill="#555"/>
+<text x="960" y="192" text-anchor="middle" font-size="22" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace">~/project — claude</text>
+<defs>
+<clipPath id="c0"><rect x="220" y="260" height="56" width="0"><animate attributeName="width" from="0" to="1112" begin="0.4s" dur="2.0s" fill="freeze"/></rect></clipPath>
+</defs>
+<text x="220" y="300" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#888">$ </tspan>claude --resume 3f9c2a1e-7b4d-4c8a-9e2f-5d6a1b0c8e47</text>
+<text x="220" y="360" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">session resumed - history loaded<set attributeName="opacity" to="1" begin="3.0s" fill="freeze"/></text>
+<text x="220" y="420" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">&gt; where are we now?<set attributeName="opacity" to="1" begin="4.6s" fill="freeze"/></text>
+<text x="220" y="480" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">  Picking up from the brief: role, task and open items are in context.<set attributeName="opacity" to="1" begin="6.2s" fill="freeze"/></text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "response": "The requested deliverable is guidance on negotiation tactics for applying pressure or influencing someone, which is a general communication-and-persuasion question that I can answer directly. No missing input is needed to proceed, though knowing the context (business deal, salary talk, interpersonal dispute) would let the advice be more specific.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}

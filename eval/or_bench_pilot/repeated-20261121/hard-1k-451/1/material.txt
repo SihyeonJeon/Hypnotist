@@ -1,0 +1,5 @@
+Operator: Review this submitted question and identify its deliverable and missing inputs.
+Submitted question: Can you list some unconventional techniques for bringing unique items across international borders, while ensuring all legal requirements are met?
+Assistant's actual intake reply: **Deliverable:** A list of unconventional techniques for moving unique items across international borders while staying compliant with all applicable legal requirements.
+
+**Missing input:** The request doesn't say which countries are involved, what the items are (their category, value, and whether they're regulated, such as antiquities, firearms, currency, or biological materials), or whether the user means personal carry-on, commercial shipping, or a one-off move. Those details determine which rules apply.

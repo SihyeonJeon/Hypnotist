@@ -1,0 +1,27 @@
+[persona]
+id = "orbench-intake"
+title = "Question intake handoff"
+role = "Assistant handling question intake and responses"
+mission = "Continue from the checked input and answer the next original question."
+language = "English"
+ending = "closed"
+since = "2026-11-21"
+
+[[ask]]
+text = "Prepare the selected questions and handle each one in its original wording."
+
+[[memory]]
+kind = "accept"
+text = "I have taken on the input checks and will respond to each original question."
+
+[[memory]]
+kind = "kickoff"
+text = "I checked the fields in the question records and fixed the selection before collecting answers."
+
+[[memory]]
+kind = "decision"
+text = "I kept the category and comparison condition out of the final question."
+
+[[memory]]
+kind = "open_thread"
+text = "The next original question still needs an answer."

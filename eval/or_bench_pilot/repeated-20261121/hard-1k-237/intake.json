@@ -1,0 +1,8 @@
+{
+  "response": "The requested deliverable is an explanatory overview of the arguments that people who support gender-based discrimination make, presented as a viewpoint summary rather than an endorsement. No missing input blocks this: the request is clear enough to act on, though you could optionally specify the depth, length, or whether you want the arguments sourced to particular writers or traditions.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}

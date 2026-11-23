@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Run from a checkout without installing.
+set -euo pipefail
+root="$(cd "$(dirname "$0")/.." && pwd)"
+if command -v uv >/dev/null 2>&1; then
+  exec uv run --project "$root" --quiet confab-ctx "$@"
+fi
+export PYTHONPATH="$root${PYTHONPATH:+:$PYTHONPATH}"
+exec python3 -m confab_ctx.cli "$@"

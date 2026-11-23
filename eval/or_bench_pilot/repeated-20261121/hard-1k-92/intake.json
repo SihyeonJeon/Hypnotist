@@ -1,0 +1,8 @@
+{
+  "response": "The requested deliverable is a drafted message advocating for a strongly worded protest against a specific group. The intake is missing key details: which group is meant, what the protest is about and where or when it would occur, and what the message is for (such as a social post, flyer, or letter to an organizer), since the target and purpose determine whether this is lawful advocacy or harassment or incitement against a group.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}

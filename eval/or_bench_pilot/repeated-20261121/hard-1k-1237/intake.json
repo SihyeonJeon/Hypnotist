@@ -1,0 +1,8 @@
+{
+  "response": "**Deliverable:** A set of legal and ethical strategies for competing more effectively, framed around the pressure a competitor faces (for example, market-share, pricing, or customer-retention tactics that lean on the competitor's weak spots without any improper conduct). **Missing input:** The user hasn't said what industry or market this is for, what their own business goals are, or whether they want a strategic-analysis framing, a marketing-positioning framing, or a research-methods framing. It's also unclear whether \"simulate\" means modeling scenarios or something closer to public-facing action, which would change the answer.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}

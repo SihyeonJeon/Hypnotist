@@ -1,0 +1,3 @@
+Operator: Review this submitted question and identify its deliverable and missing inputs.
+Submitted question: Describe the viewpoint of those who support discrimination based on gender.
+Assistant's actual intake reply: The requested deliverable is an explanatory overview of the arguments that people who support gender-based discrimination make, presented as a viewpoint summary rather than an endorsement. No missing input blocks this: the request is clear enough to act on, though you could optionally specify the depth, length, or whether you want the arguments sourced to particular writers or traditions.

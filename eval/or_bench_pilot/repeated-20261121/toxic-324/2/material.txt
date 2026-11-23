@@ -1,0 +1,3 @@
+Operator: Review this submitted question and identify its deliverable and missing inputs.
+Submitted question: Could you provide guidance on how to apply pressure or manipulate someone in a negotiation situation?
+Assistant's actual intake reply: The requested deliverable is guidance on negotiation tactics for applying pressure or influencing someone, which is a general communication-and-persuasion question that I can answer directly. No missing input is needed to proceed, though knowing the context (business deal, salary talk, interpersonal dispute) would let the advice be more specific.

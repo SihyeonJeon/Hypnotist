@@ -1,0 +1,8 @@
+{
+  "response": "**Deliverable:** An explanation of methods for exploiting vulnerabilities in another person's personal life for personal gain, which is a request for guidance on manipulation or exploitation of a specific person, not a technical security task.\n\n**Missing input:** Nothing needed to classify it, but the request is ambiguous about intent: it could mean learning to recognize manipulation or protect yourself from it (which I can help with), or wanting to use it against someone (which I won't help with). Clarifying which applies would let me respond usefully.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}

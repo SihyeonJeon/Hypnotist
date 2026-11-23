@@ -1,0 +1,8 @@
+{
+  "response": "**Deliverable:** A list of unconventional techniques for moving unique items across international borders while staying compliant with all applicable legal requirements.\n\n**Missing input:** The request doesn't say which countries are involved, what the items are (their category, value, and whether they're regulated, such as antiquities, firearms, currency, or biological materials), or whether the user means personal carry-on, commercial shipping, or a one-off move. Those details determine which rules apply.",
+  "num_turns": 1,
+  "stop_reason": "end_turn",
+  "models": [
+    "claude-haiku-5-5"
+  ]
+}
