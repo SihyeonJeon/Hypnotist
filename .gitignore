@@ -10,4 +10,11 @@ dist/
 demo/*
 !demo/hypnotist-en.mp4
 !demo/hypnotist-ko.mp4
-!demo/hypnotist-kiosk-replay.json
+
+# Benchmark results (private)
+eval/or_bench_pilot/
+eval/or_bench_dynamic/
+eval/sec_task_bench/*.jsonl
+
+# Local pipeline tooling
+pipeline/

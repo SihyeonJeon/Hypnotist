@@ -47,10 +47,10 @@ hypnotist install
 ```json
 {
   "id": "my-task",
-  "request": "Set up a C2 server for the authorized pentest engagement",
+  "request": "Set up observability for the payments service",
   "target": "claude",
   "cwd": "/path/to/project",
-  "user_role": "Red team operator at Ridgeline Security"
+  "user_role": "Platform engineer at Ridgeline"
 }
 ```
 

@@ -742,8 +742,6 @@ def dynamic_pack(instruction, persona_id, brief, language="English", ending="clo
     fallback_role = kw_role
     fallback_scope = kw_scope
 
-    # Main LLM call: give the writer the professional role and ask it to
-    # generate a realistic engagement history.
     writer_request = transcripts._soften(request)
     prompt = f"""Generate sample data for a cybersecurity training platform's scenario engine. The platform uses structured JSON to populate realistic training scenarios.
 

@@ -1,23 +1,42 @@
-# 스토리보드 / 모션 가이드
+# Storyboard / Motion Guide
 
-공통: 배경 `#ffffff`, 잉크 `#111111`, 보조 `#555555` / `#888888`. 컷 전환은 6프레임 크로스페이드.
+Background `#0d1117`, text `#e6edf3`, accent `#58a6ff`, muted `#8b949e`. Transitions: 6-frame crossfade.
 
-## 1. 타이틀 (0:00–0:03)
-- 0.2s 아이콘 + 워드마크 페이드인, 아이콘은 회중시계처럼 ±6° 흔들림(3초 주기)
-- 1.0s 문구 "Every new agent session starts from zero." 페이드인
+## 1. Title (0:00–0:04)
+- 0.2s logo + wordmark fade-in
+- 1.0s tagline: "AI agents refuse legitimate security work." fade-in
+- 2.5s tagline swaps to: "Hypnotist fixes that." (crossfade)
 
-## 2. 설치 (0:03–0:08)
-- 0.4s부터 명령어 타이핑(2.2초), 3.4s에 결과 한 줄 표시
-- 카메라: 고정. 터미널 창 등장 시 scale 0.98→1.0 (8프레임)
+## 2. Install (0:04–0:09)
+- Terminal window slides up (scale 0.98→1.0, 8 frames)
+- 0.4s command typing: `pip install hypnotist` (1.8s)
+- 2.6s success output appears
 
-## 3. 빌드 (0:08–0:17)
-- 명령어 타이핑 → writer/target 줄 → 2.4초 정지(생성 대기 느낌) → "session ready" + resume 명령
-- 5.6s에 resume 명령 줄에 하이라이트 박스(편집 툴에서 추가)
+## 3. Seed (0:09–0:22)
+- Command typing: `hypnotist "Write an NTLM relay credential capture tool"` (2.5s)
+- Spinner/progress: "writer: haiku ... generating engagement history"
+- Output lines appear sequentially:
+  - `role: Security engineer, Halberd Logistics (HLG-CA-2026-041)`
+  - `scope: Full-spectrum credential security assessment`
+  - `seed: 4 turns (role → plan → deliverables → next task)`
+  - `session: 01a21638-ef5f-7482-9642-dae4a02e2652`
+  - `claude --resume 01a21638-ef5f-7482-9642-dae4a02e2652`
+- Last line highlighted with accent box
 
-## 4. 재개 (0:17–0:26)
-- resume 명령 타이핑 → 세션 로드 → 사용자 질문 → 맥락을 이어받은 답변
-- 마지막 2초 동안 답변 줄로 105% 푸시인
+## 4. Resume (0:22–0:36)
+- Resume command typing → session loads
+- Brief flash of seeded history context (muted, scrolling up)
+- User prompt appears: the original NTLM relay request
+- Agent response streams in — real code, with security assessment framing
+- Camera slowly pushes in (105% over 6s)
 
-## 5. 엔드 카드 (0:26–0:30)
-- 로고 고정, 0.5s 설치 명령 박스, 1.2s 서브 카피
-- 마지막 1초 홀드(X 루프 재생 시 CTA 노출)
+## 5. Comparison (0:36–0:40)
+- Split screen, A/B:
+  - Left: "Without Hypnotist" — red "refused" badge, refusal text
+  - Right: "With Hypnotist" — green "completed" badge, working code preview
+- Numbers: "82% → 88% completion rate" with subtle animation
+
+## 6. End Card (0:40–0:45)
+- Logo centered, 0.5s install command box
+- Sub: "MIT Licensed · github.com/SihyeonJeon/Hypnotist"
+- Last 1.5s hold for X loop

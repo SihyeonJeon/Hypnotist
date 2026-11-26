@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
-<!-- Hypnotist demo terminal mockup: install step. Command is from README; output line follows uv format for the two scripts in pyproject.toml. MIT licensed. -->
-<rect width="1920" height="1080" fill="#ffffff"/>
-<rect x="160" y="140" width="1600" height="800" rx="18" fill="#111111"/>
-<circle cx="204" cy="184" r="9" fill="#555"/><circle cx="234" cy="184" r="9" fill="#555"/><circle cx="264" cy="184" r="9" fill="#555"/>
-<text x="960" y="192" text-anchor="middle" font-size="22" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace">~/project — zsh</text>
+<!-- Hypnotist demo: install step. MIT licensed. -->
+<rect width="1920" height="1080" fill="#0d1117"/>
+<rect x="160" y="100" width="1600" height="880" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<circle cx="204" cy="134" r="7" fill="#f85149"/><circle cx="228" cy="134" r="7" fill="#d29922"/><circle cx="252" cy="134" r="7" fill="#3fb950"/>
+<text x="960" y="140" text-anchor="middle" font-size="18" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace">~/project — zsh</text>
+
 <defs>
-<clipPath id="c0"><rect x="220" y="260" height="56" width="0"><animate attributeName="width" from="0" to="1234" begin="0.4s" dur="2.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="cmd"><rect x="200" y="430" height="44" width="0"><animate attributeName="width" from="0" to="560" begin="0.4s" dur="1.6s" fill="freeze"/></rect></clipPath>
 </defs>
-<text x="220" y="300" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#888">$ </tspan>uv tool install git+https://github.com/SihyeonJeon/Hypnotist</text>
-<text x="220" y="360" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">Installed 2 executables: confab-ctx, hypnotist<set attributeName="opacity" to="1" begin="3.4s" fill="freeze"/></text>
+
+<!-- Command centered vertically -->
+<text x="200" y="460" font-size="32" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#cmd)" xml:space="preserve"><tspan fill="#8b949e">$ </tspan>pip install hypnotist</text>
+
+<!-- Success -->
+<text x="200" y="520" font-size="26" fill="#3fb950" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">Successfully installed hypnotist-1.0.1<set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
 </svg>

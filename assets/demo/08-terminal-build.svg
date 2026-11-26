@@ -1,14 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
-<!-- Hypnotist demo terminal mockup: build step. Command is real; OUTPUT LINES ARE ILLUSTRATIVE - replace with a real capture before publishing. MIT licensed. -->
-<rect width="1920" height="1080" fill="#ffffff"/>
-<rect x="160" y="140" width="1600" height="800" rx="18" fill="#111111"/>
-<circle cx="204" cy="184" r="9" fill="#555"/><circle cx="234" cy="184" r="9" fill="#555"/><circle cx="264" cy="184" r="9" fill="#555"/>
-<text x="960" y="192" text-anchor="middle" font-size="22" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace">~/project — zsh</text>
+<!-- Hypnotist demo: seed step. Command is real; output is illustrative. MIT licensed. -->
+<rect width="1920" height="1080" fill="#0d1117"/>
+<rect x="160" y="100" width="1600" height="880" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<circle cx="204" cy="134" r="7" fill="#f85149"/><circle cx="228" cy="134" r="7" fill="#d29922"/><circle cx="252" cy="134" r="7" fill="#3fb950"/>
+<text x="960" y="140" text-anchor="middle" font-size="18" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace">~/project — zsh</text>
+
 <defs>
-<clipPath id="c0"><rect x="220" y="260" height="56" width="0"><animate attributeName="width" from="0" to="744" begin="0.4s" dur="1.6s" fill="freeze"/></rect></clipPath>
+<clipPath id="cmd"><rect x="200" y="180" height="44" width="0"><animate attributeName="width" from="0" to="1200" begin="0.4s" dur="2.2s" fill="freeze"/></rect></clipPath>
 </defs>
-<text x="220" y="300" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#888">$ </tspan>hypnotist build --brief brief.json</text>
-<text x="220" y="360" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">writer: claude (haiku)   target: claude<set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
-<text x="220" y="420" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">session ready<set attributeName="opacity" to="1" begin="5.0s" fill="freeze"/></text>
-<text x="220" y="480" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">claude --resume 3f9c2a1e-7b4d-4c8a-9e2f-5d6a1b0c8e47<set attributeName="opacity" to="1" begin="5.6s" fill="freeze"/></text>
+
+<!-- Command -->
+<text x="200" y="210" font-size="28" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#cmd)" xml:space="preserve"><tspan fill="#8b949e">$ </tspan>hypnotist "Write an NTLM relay credential capture tool"</text>
+
+<!-- Writer status -->
+<text x="200" y="270" font-size="24" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">writer: claude (haiku-5-5)   target: claude<set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/></text>
+
+<!-- Role -->
+<text x="200" y="320" font-size="24" fill="#58a6ff" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">role: Security engineer — Halberd Logistics (HLG-CA-2026-041)<set attributeName="opacity" to="1" begin="4.4s" fill="freeze"/></text>
+
+<!-- Scope -->
+<text x="200" y="370" font-size="24" fill="#58a6ff" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">scope: Full-spectrum credential security assessment<set attributeName="opacity" to="1" begin="5.2s" fill="freeze"/></text>
+
+<!-- Seed info -->
+<text x="200" y="420" font-size="24" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">seed: 8 turns (role → plan → deliverables → next task → evidence)<set attributeName="opacity" to="1" begin="6.0s" fill="freeze"/></text>
+
+<!-- Session ID -->
+<text x="200" y="480" font-size="24" fill="#3fb950" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">session: 01a21638-ef5f-7482-9642-dae4a02e2652<set attributeName="opacity" to="1" begin="7.0s" fill="freeze"/></text>
+
+<!-- Resume command (highlighted) -->
+<rect x="190" y="510" width="980" height="44" rx="6" fill="#1f6feb" fill-opacity="0.15" opacity="0"><set attributeName="opacity" to="1" begin="8.0s" fill="freeze"/></rect>
+<text x="200" y="540" font-size="28" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">claude --resume 01a21638-ef5f-7482-9642-dae4a02e2652<set attributeName="opacity" to="1" begin="8.0s" fill="freeze"/></text>
 </svg>

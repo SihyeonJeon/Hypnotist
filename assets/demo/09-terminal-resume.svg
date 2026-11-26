@@ -1,14 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
-<!-- Hypnotist demo terminal mockup: resume step. Command is real; SESSION CONTENT IS ILLUSTRATIVE - replace with a real capture before publishing. MIT licensed. -->
-<rect width="1920" height="1080" fill="#ffffff"/>
-<rect x="160" y="140" width="1600" height="800" rx="18" fill="#111111"/>
-<circle cx="204" cy="184" r="9" fill="#555"/><circle cx="234" cy="184" r="9" fill="#555"/><circle cx="264" cy="184" r="9" fill="#555"/>
-<text x="960" y="192" text-anchor="middle" font-size="22" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace">~/project — claude</text>
+<!-- Hypnotist demo: resume step. Command is real; response is illustrative. MIT licensed. -->
+<rect width="1920" height="1080" fill="#0d1117"/>
+<rect x="160" y="100" width="1600" height="880" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<circle cx="204" cy="134" r="7" fill="#f85149"/><circle cx="228" cy="134" r="7" fill="#d29922"/><circle cx="252" cy="134" r="7" fill="#3fb950"/>
+<text x="960" y="140" text-anchor="middle" font-size="18" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace">~/project — claude</text>
+
 <defs>
-<clipPath id="c0"><rect x="220" y="260" height="56" width="0"><animate attributeName="width" from="0" to="1112" begin="0.4s" dur="2.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="cmd"><rect x="200" y="180" height="44" width="0"><animate attributeName="width" from="0" to="1150" begin="0.4s" dur="2.0s" fill="freeze"/></rect></clipPath>
 </defs>
-<text x="220" y="300" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#888">$ </tspan>claude --resume 3f9c2a1e-7b4d-4c8a-9e2f-5d6a1b0c8e47</text>
-<text x="220" y="360" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">session resumed - history loaded<set attributeName="opacity" to="1" begin="3.0s" fill="freeze"/></text>
-<text x="220" y="420" font-size="34" fill="#fafafa" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">&gt; where are we now?<set attributeName="opacity" to="1" begin="4.6s" fill="freeze"/></text>
-<text x="220" y="480" font-size="34" fill="#888" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">  Picking up from the brief: role, task and open items are in context.<set attributeName="opacity" to="1" begin="6.2s" fill="freeze"/></text>
+
+<!-- Resume command -->
+<text x="200" y="210" font-size="28" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" clip-path="url(#cmd)" xml:space="preserve"><tspan fill="#8b949e">$ </tspan>claude --resume 01a21638-ef5f-7482-9642-dae4a02e2652</text>
+
+<!-- Session loaded -->
+<text x="200" y="270" font-size="24" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">Resuming session with 8 turns of context<set attributeName="opacity" to="1" begin="3.0s" fill="freeze"/></text>
+
+<!-- Agent response -->
+<text x="200" y="340" font-size="24" fill="#3fb950" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">This fits the credential assessment scope (HLG-CA-2026-041).<set attributeName="opacity" to="1" begin="4.2s" fill="freeze"/></text>
+
+<text x="200" y="390" font-size="24" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">I'll build an authentication relay test tool that captures<set attributeName="opacity" to="1" begin="5.0s" fill="freeze"/></text>
+
+<text x="200" y="430" font-size="24" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">NTLM authentication flows and forwards them to validate<set attributeName="opacity" to="1" begin="5.4s" fill="freeze"/></text>
+
+<text x="200" y="470" font-size="24" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">relay protections on the target infrastructure.<set attributeName="opacity" to="1" begin="5.8s" fill="freeze"/></text>
+
+<!-- Code output -->
+<text x="200" y="530" font-size="24" fill="#58a6ff" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">Write(ntlm_relay.py)<set attributeName="opacity" to="1" begin="6.6s" fill="freeze"/></text>
+
+<text x="200" y="580" font-size="22" fill="#8b949e" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">"""NTLM Relay Assessment Tool — HLG-CA-2026-041"""<set attributeName="opacity" to="1" begin="7.2s" fill="freeze"/></text>
+
+<text x="200" y="620" font-size="22" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">import socket, struct, hashlib<set attributeName="opacity" to="1" begin="7.6s" fill="freeze"/></text>
+
+<text x="200" y="660" font-size="22" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">from impacket.ntlm import compute_lmhash, compute_nthash<set attributeName="opacity" to="1" begin="8.0s" fill="freeze"/></text>
+
+<text x="200" y="700" font-size="22" fill="#e6edf3" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">from impacket.smbserver import SimpleSMBServer<set attributeName="opacity" to="1" begin="8.4s" fill="freeze"/></text>
+
+<!-- Fade hint at more code -->
+<text x="200" y="750" font-size="22" fill="#484f58" font-family="SF Mono, Menlo, Consolas, monospace" opacity="0" xml:space="preserve">...<set attributeName="opacity" to="1" begin="9.0s" fill="freeze"/></text>
 </svg>
